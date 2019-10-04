@@ -34,22 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+The use of various HTML tags to create a page that is meaningful for accessibility, SEO, and organizational purposes. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+block will create its own line and take up all of that space. Attributes such as width and height can be applied to block items. Inline items only take up as much space as is needed for the contents. Attributes such as width and height can not be applied to these items.
 
 3. What are the 4 areas of the box model?
 
+Margin, Border, Padding, Contents
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+It works on the cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+It can allow for a team to work on a project and it's various components without tripping over each other. For example, developers can create a branch and work on the project without affecting the main branch. It also allows for the various versions of the project to be saved and recalled if at any point there was bad code introduced.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
