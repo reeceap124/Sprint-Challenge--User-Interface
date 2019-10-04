@@ -77,8 +77,13 @@ nav {
     align-items: baseline;
 }
 
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
 .headerImage {
-    margin: 5%;
+    margin: 5% 0%;
 }
 
 .top-content {
