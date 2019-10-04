@@ -200,3 +200,31 @@ footer nav a {
 .middle-content .boxes .box10{
     background-color: dodgerblue;
 }
+
+/* Start About Page Styling */
+
+.aboutMidContent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px dashed black;
+    margin: 5% 0%;
+}
+
+.aBox{
+    width: 40%;
+    padding: 2% 0%;
+    border-bottom: 1px dashed black;
+    margin: 2% 0%;
+}
+
+.aBox button{
+    background: white;
+    padding: 2% 4%;
+    border-radius: 10%;
+    margin-top: 5%;
+}
+
+.aboutBottomContent{
+    margin-Bottom: 5%;
+}
