@@ -71,6 +71,21 @@ p {
     margin: 0 auto;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.headerImage {
+    margin: 5% 0%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -143,4 +158,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* A literal butt-ton of box color stylings */
+.middle-content .boxes .box1{
+    background: teal;
+}
+
+.middle-content .boxes .box2{
+    background-color: gold;
+}
+
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+}
+
+/* Start About Page Styling */
+
+.aboutMidContent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px dashed black;
+    margin: 5% 0%;
+}
+
+.aBox{
+    width: 40%;
+    padding: 2% 0%;
+    border-bottom: 1px dashed black;
+    margin: 2% 0%;
+}
+
+.aBox button{
+    background: white;
+    padding: 2% 4%;
+    border-radius: 10%;
+    margin-top: 5%;
+}
+
+.aboutBottomContent{
+    margin-Bottom: 5%;
 }
